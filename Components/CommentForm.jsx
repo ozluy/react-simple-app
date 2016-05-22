@@ -95,7 +95,8 @@ class CommentForm extends React.Component {
 			this.props.addComment(author.getValue(), body.getValue());
 			this.setState({
 				nameValue:'',
-				bodyValue:''
+				bodyValue:'',
+				charCount:0
 			});
 		}
 		if(!author.getValue().trim().length > 0){

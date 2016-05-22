@@ -11,7 +11,7 @@ class CommentList extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			showComments: true,
+			showComments: false,
 			comments: []
 		};
 	}
@@ -24,10 +24,10 @@ class CommentList extends React.Component {
 	}
 
 	/**This function runs after render method
-	 * Polling data from server every 20 seconds */
+	 * Polling data from server every 60 seconds */
 
 	componentDidMount() {
-		this._timer = setInterval(() => this._fetchComments(), 20000);
+		this._timer = setInterval(() => this._fetchComments(), 60000);
 	}
 
 	componentWillUnmount() {

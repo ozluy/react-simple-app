@@ -16,7 +16,7 @@ class Comment extends React.Component {
 					<div>{this.props.author}</div>
 				</Subheader>
 				<div>
-					<RaisedButton onClick={this._handleDelete.bind(this)} label="delete comment"/>
+					<RaisedButton backgroundColor="#a4c639" onClick={this._handleDelete.bind(this)} label="delete comment"/>
 				</div>
 
 			</ListItem>
