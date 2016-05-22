@@ -1,7 +1,5 @@
 # react-simple-app
-A comment app with some functions and data
-#### demo 
-<a  target="_blank" href="http://ozluy.github.io/projects/react-simple-app">here</a>
+A comment app with some functions and data, demo  <a  target="_blank" href="ozluy.github.io/projects/react-simple-app">here</a>
 
 #### features
 - fetch comments from json (Jquery Ajax)
